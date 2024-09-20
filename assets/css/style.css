@@ -517,6 +517,16 @@ section h3 {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+#hey {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* color: #8c8c94; */
+  color:  #fbdbc4;
+  /* font-family: "Open Sans"; */
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -604,20 +614,49 @@ section h3 {
 }
 
 #whs {
-  height: 180px;
-  width: 220px;
+  height: 170px;
+  width: 210px;
   padding-top: 0px;
 }
 
 #payette {
   height: 100px;
   top: 65%;
-  left: 52%;
+  left: 49%;
+  /* width: 300px; */
+}
+
+#npm {
+  height: 120px;
+  top: 70%;
+  left: 55%;
   /* width: 300px; */
 }
 
 #way {
   left: 55%;
+}
+
+#cuair {
+  height: 200px;
+}
+
+#coinbase {
+  top: 50%;
+  left: 45%;
+  height: 170px;
+}
+
+#cameo {
+  top: 40%;
+  /* left: 45%; */
+  /* height: 170px; */
+}
+
+#cornell {
+  height: 200px;
+  /* left: 45%; */
+  /* height: 170px; */
 }
 
 .row {
@@ -1214,6 +1253,21 @@ section h3 {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+/* #resume-doc {
+  
+} */
+
+#resume-doc a {
+  transition: 0.3s;
+  color: #fbdcc4;
+}
+
+#resume-doc a:hover {
+  /* background: #8c8c94; */
+  color: #8c8c94;
+  text-decoration: none;
+}
+
 #footer {
   background: #ffffff;
   color: #8c8c94;
